@@ -2,7 +2,7 @@
 <!-- See: https://github.com/phonegap/phonegap-start/blob/master/www/config.xml -->
 <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.gamingplatform.tictactoe"
+        id          = "com.gamingplatform.Dots_and_Boxes"
         versionCode = "8"
         version     = "1.0.0" >
     <!-- versionCode is optional and Android only:
@@ -10,13 +10,13 @@
       see: http://developer.android.com/tools/publishing/versioning.html
     -->
 
-    <name>Tic Tac Toe</name>
+    <name>Dots and Boxes</name>
 
     <description>
-        A multiplayer Tic Tac Toe game.
+        A multiplayer Dots and Boxes game.
     </description>
 
-    <author href="http://yoav-zibin.github.io/homepage/" email="yoav.zibin@gmail.com">
+    <author href="http://yw1981.github.io/homepage/" email="yw1981.nyu@gmail.com">
         Yoav Zibin
     </author>
 
@@ -47,53 +47,14 @@
 
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:splash src="splash.png" width="512" height="512"/>
-    <!-- iPhone and iPod touch -->
-    <gap:splash src="splash-320x480.png" gap:platform="ios" width="320" height="480" />
-    <gap:splash src="splash-640x960.png" gap:platform="ios" width="640" height="960" />
-    <!-- iPhone 5 / iPod Touch (5th Generation) -->
-    <gap:splash src="splash-640x1136.png" gap:platform="ios" width="640" height="1136" />
-    <!-- iPad -->
-    <gap:splash src="splash-768x1024.png" gap:platform="ios" width="768" height="1024" />
-    <gap:splash src="splash-1024x768.png" gap:platform="ios" width="1024" height="768" />
-    <!-- iPhone 6 -->
-    <gap:splash src="splash-750x1334.png" gap:platform="ios" width="750" height="1334" />
-    <gap:splash src="splash-1242x2208.png" gap:platform="ios" width="1242" height="2208" />
-    <gap:splash src="splash-2208x1242.png" gap:platform="ios" width="2208" height="1242" />
-    <!-- Retina iPad -->
-    <gap:splash src="splash-1536x2048.png" gap:platform="ios" width="1536" height="2048" />
-    <gap:splash src="splash-2048x1536.png" gap:platform="ios" width="2048" height="1536" />
-
-    <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-    <string>100</string>
-    </gap:config-file>
-
-    <icon src="icon-512.png" width="512" height="512"/>
-    <icon src="icon-57.png" gap:platform="ios" width="57" height="57" />
-    <icon src="icon-72.png" gap:platform="ios" width="72" height="72" />
-    <icon src="icon-114.png" gap:platform="ios" width="114" height="114" />
-    <icon src="icon-144.png" gap:platform="ios" width="144" height="144" />
-    <!-- iPhone 6 / 6+ -->
-    <icon src="icon-180.png" gap:platform="ios" width="180" height="180" />
-    <!-- iPhone / iPod Touch  -->
-    <icon src="icon-60.png" gap:platform="ios" width="60" height="60" />
-    <icon src="icon-120.png" gap:platform="ios" width="120" height="120" />
-    <!-- iPad -->
-    <icon src="icon-76.png" gap:platform="ios" width="76" height="76" />
-    <icon src="icon-152.png" gap:platform="ios" width="152" height="152" />
-    <!-- Settings Icon -->
-    <icon src="icon-29.png" gap:platform="ios" width="29" height="29" />
-    <icon src="icon-58.png" gap:platform="ios" width="58" height="58" />
-    <!-- Spotlight Icon -->
-    <icon src="icon-40.png" gap:platform="ios" width="40" height="40" />
-    <icon src="icon-80.png" gap:platform="ios" width="80" height="80" />
 
     <!-- see: https://www.npmjs.com/package/phonegap-plugin-push -->
     <gap:plugin name="phonegap-plugin-push" source="npm" version="1.2.3" />
 
     <!-- see: https://build.phonegap.com/plugins/1246 -->
     <gap:plugin name="com.phonegap.plugins.facebookconnect" source="pgb" version="0.9.0">
-        <param name="APP_ID" value="1505618116376825" />
-        <param name="APP_NAME" value="Tic Tac Toe" />
+        <param name="APP_ID" value="1642985342619112" />
+        <param name="APP_NAME" value="Dots and Boxes" />
     </gap:plugin>
 
     <!--
