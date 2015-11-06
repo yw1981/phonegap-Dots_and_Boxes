@@ -2,7 +2,7 @@
 <!-- See: https://github.com/phonegap/phonegap-start/blob/master/www/config.xml -->
 <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.gamingplatform.Dots_and_Boxes"
+        id          = "com.gamingplatform.Dot_and_Boxes"
         versionCode = "8"
         version     = "1.0.0" >
     <!-- versionCode is optional and Android only:
@@ -10,7 +10,7 @@
       see: http://developer.android.com/tools/publishing/versioning.html
     -->
 
-    <name>Dots and Boxes</name>
+    <name>Dots_and_Boxes</name>
 
     <description>
         A multiplayer Dots and Boxes game.
