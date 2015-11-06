@@ -17,7 +17,7 @@
     </description>
 
     <author href="http://yw1981.github.io/homepage/" email="yw1981.nyu@gmail.com">
-        Yoav Zibin
+        Yuxin Wang
     </author>
 
     <!--
@@ -47,7 +47,7 @@
 
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:splash src="splash.png" width="512" height="512"/>
-
+    <icon src="icon512x512.png" width="512" height="512"/>
     <!-- see: https://www.npmjs.com/package/phonegap-plugin-push -->
     <gap:plugin name="phonegap-plugin-push" source="npm" version="1.2.3" />
 
@@ -56,6 +56,7 @@
         <param name="APP_ID" value="1642985342619112" />
         <param name="APP_NAME" value="Dots and Boxes" />
     </gap:plugin>
+
 
     <!--
       See: https://github.com/apache/cordova-plugin-whitelist
@@ -76,9 +77,5 @@
     <allow-intent href="geo:*" />
     <platform name="android">
         <allow-intent href="market:*" />
-    </platform>
-    <platform name="ios">
-        <allow-intent href="itms:*" />
-        <allow-intent href="itms-apps:*" />
     </platform>
 </widget>
