@@ -16,7 +16,7 @@
         A multiplayer Dots and Boxes game.
     </description>
 
-    <author href="http://yw1981.github.io/homepage/" email="yw1981.nyu@gmail.com">
+    <author href="http://yw1981.github.io/homepage/Dots_and_Boxes" email="yw1981.nyu@gmail.com">
         Yuxin Wang
     </author>
 
@@ -47,6 +47,7 @@
 
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:splash src="splash.png" width="512" height="512"/>
+
     <icon src="icon512x512.png" width="512" height="512"/>
     <!-- see: https://www.npmjs.com/package/phonegap-plugin-push -->
     <gap:plugin name="phonegap-plugin-push" source="npm" version="1.2.3" />
