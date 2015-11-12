@@ -54,9 +54,9 @@
 
     <!-- see: https://build.phonegap.com/plugins/1246 -->
 
-    <gap:plugin name="com.phonegap.plugins.facebookconnect" version="0.4.0">
-    <param name="APP_ID" value="1642985342619112" />
-    <param name="APP_NAME" value="Dots_and_Boxes" />
+    <gap:plugin name="com.phonegap.plugins.facebookconnect" version="0.8.0">
+        <param name="APP_ID" value="1642985342619112" />
+        <param name="APP_NAME" value="Dots_and_Boxes" />
     </gap:plugin>
 
     <!-- https://build.phonegap.com/plugins/2828 -->
