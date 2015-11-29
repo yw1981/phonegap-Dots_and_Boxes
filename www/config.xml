@@ -10,13 +10,13 @@
       needs to be increased every time you submit a new APK version.
       see: http://developer.android.com/tools/publishing/versioning.html
     -->
-    <!--
+
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-    <string>600</string>
+    <string>1.0.0</string>
     </gap:config-file>
-    -->
+
     <gap:config-file platform="ios" parent="CFBundleVersion">
-      <string>656</string>
+      <string>1.0.0</string>
     </gap:config-file>
 
     <name>Dots_and_Boxes</name>
