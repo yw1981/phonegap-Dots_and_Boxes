@@ -4,7 +4,7 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         xmlns:android   = "http://schemas.android.com/apk/res/android"
         id          = "com.gamingplatform.dotsandboxes"
-        versionCode = "9"
+        versionCode = "2"
         version     = "1.0.6" ios-CFBundleVersion="201406097">
     <!-- versionCode is optional and Android only:
       needs to be increased every time you submit a new APK version.
@@ -19,7 +19,7 @@
       <string>1.0.0</string>
     </gap:config-file>
 
-    <name>Dots_and_Boxes</name>
+    <name>Dots and Boxes</name>
 
     <description>
         A multiplayer Dots and Boxes game.
@@ -152,7 +152,7 @@
     <gap:config-file platform="android" parent="/manifest/application" mode="add" >
       <activity
           android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-          android:name=".DotsAndBoxes" android:label="@string/app_name" android:screenOrientation="unspecified" android:windowSoftInputMode="adjustUnspecified|stateUnspecified">
+          android:name=".dotsandboxes" android:label="@string/app_name" android:screenOrientation="unspecified" android:windowSoftInputMode="adjustUnspecified|stateUnspecified">
         <intent-filter>
           <action android:name="android.intent.action.MAIN"/>
           <category android:name="android.intent.category.LAUNCHER"/>
